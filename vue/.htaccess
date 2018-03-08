@@ -1,0 +1,3 @@
+<FilesMatch "vue.php">
+    Deny from all
+</FilesMatch>

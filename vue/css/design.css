@@ -1,0 +1,159 @@
+/*************************************************************
+	Auteurs 	: Ivan Perez et Victor Neto
+	Projet  	: Gestion de base de données via PHP
+	Date    	: 12 Mars 2014
+	Description     : Design du site web
+*************************************************************/
+body {
+	background-color: #CCC;
+}
+
+#page{
+    width: 100%;
+    max-width: 1920px;
+    min-width: 1280px;
+    margin: auto;
+}
+
+/*************************************************************
+** En tête 
+*************************************************************/
+#banniere{
+        width: 100%;
+        max-width: 1920px;
+        min-width: 1280px;       
+	height: 100px;
+        line-height: 100px;        
+        background-image: url('../img/banniere.png'); 
+        background-size: 100%;
+        text-align: center;
+        font-size: 50px;
+	background-color: #555;
+        margin: auto;
+}
+
+/*************************************************************
+** Menu principal 
+*************************************************************/
+#menuC {
+        width: 100%;
+	max-width: 1920px;
+        min-width: 1280px;       
+	height: 50px;
+	background-color: #999;
+        text-align: center;
+}
+
+/*************************************************************
+** menu inscription
+*************************************************************/
+#menuC a{	
+        margin: 0 50px 0 50px;
+}
+
+/*************************************************************
+** Menu gauche 
+*************************************************************/
+#menuG {
+        width: 15%;
+        max-width: 288px;
+        min-width: 192px;       
+	height: 500px;
+	background-color: #DDD;
+	float: left;
+}
+
+
+/*************************************************************
+**  Le corps 
+*************************************************************/
+#contenu {
+    	width: 85%;
+        max-width: 1632px;
+	min-width: 1088px;
+	height: 500px;
+	background-color: #EEE;
+        text-align: center;
+	overflow: auto;
+}
+
+/* personnes.php */
+#contenu .liste {
+	height: 420px;
+	width: 1000px;
+	border: solid #000 1px;
+	background-color: #FFF;
+	overflow: auto;
+	margin: auto;
+}
+#contenu .liste #detailed {
+	height: 30px;
+	width: 980px;
+	background-color: #CCC;
+	text-align: center;
+	float: left;
+}
+#contenu .liste .boite1 { 
+	height: 75px;
+	width: 30px;
+	border-top: solid #000 1px;
+	float: left;
+}
+#contenu .liste .boite2 { 
+        height: 75px;
+	width: 134px;
+	border-top: solid #000 1px; 
+	border-left: solid #000 1px;
+	overflow: auto;
+	float: left;
+}
+
+/* inscription.php */
+#contenu form {
+    min-height: 50px;
+    width: 350px;
+    margin: auto;
+}
+#contenu form .boite3 {
+    min-height: 50px;
+    width: 175px;
+    text-align: left;
+    float: left;
+}
+
+/* localites.php et activites.php */
+#contenu .liste .boxLocAct{
+    height: 100px;
+    width: 200px;
+    border-top: solid #000 1px;
+    float: left;  
+}
+#contenu .liste .boxPersonnes{
+    height: 100px;
+    width: 677px;
+    overflow: auto;
+    border-top: solid #000 1px; 
+    border-left: solid #000 1px;
+    float: left;  
+}
+#contenu .liste .boxBouton{
+    height: 100px;
+    width: 100px;
+    border-top: solid #000 1px; 
+    border-left: solid #000 1px;
+    float: left; 
+}
+
+/*************************************************************
+**  pied page
+*************************************************************/
+#footer {
+        width: 100%;
+        max-width: 1920px;
+        min-width: 1280px; 
+	height: 50px;
+        line-height: 50px;
+	background-color: #999;
+	text-align: center;
+	float: left;
+}
